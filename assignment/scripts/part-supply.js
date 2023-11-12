@@ -35,6 +35,9 @@ console.log('Removed last value from supplyChanges:', removedItem);
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 console.log('5. Add the value 25 into supplyChanges.');
 
+let valueToPush = 25;
+supplyChanges.push(valueToPush);
+console.log(' Add the value 25 into supplyChanges.', supplyChanges);
 
 // 6. Create three new variables named 'positives', 'negatives', and
 //    'zeroes' whose values are empty arrays. Then, write a for loop
