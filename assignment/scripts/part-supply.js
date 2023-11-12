@@ -28,6 +28,9 @@ console.log('Access the second value of supplyChanges:', secondItem);
 //    Remove it from the array and store it inside a new variable called 'removedItem'.
 console.log('4. Remove the last value from supplyChanges:');
 
+let removedItem = supplyChanges[5];
+supplyChanges.pop();
+console.log('Removed last value from supplyChanges:', removedItem);
 
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 console.log('5. Add the value 25 into supplyChanges.');
