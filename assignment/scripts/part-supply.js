@@ -56,6 +56,15 @@ for ( let i = 0; i < supplyChanges.length; i++){
 console.log(supplyChanges[i]);
 }
 
+positives = supplyChanges.filter((number) => number%2!==0)
+console.log('Positive numbers;', positives);
+
+negatives = supplyChanges.filter(n => n <0);
+console.log('negative numbers:', negatives);
+
+zeroes = supplyChanges.filter(n => n ==0);
+console.log('zeroes numbers:', zeroes);
+
 
 // ***** STRETCH GOALS *********************************************
 // 7. Rewrite the 'for' loop from #6 as a 'for...of' loop. Instead of 'positives',
