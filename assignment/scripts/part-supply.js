@@ -52,9 +52,9 @@ let positives = [];
 let negatives = [];
 let zeroes = [];
 
-positives = supplyChanges.filter((number) => number%2!==0)
-console.log('Positive numbers;', positives);
-
+for ( let i = 0; i < supplyChanges.length; i++){
+console.log(supplyChanges[i]);
+}
 
 
 // ***** STRETCH GOALS *********************************************
